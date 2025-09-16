@@ -1,44 +1,48 @@
 # belvedere-tenis-ui
 
-This template should help get you started developing with Vue 3 in Vite.
+Frontend para sistema de reserva de quadra de tenis do Condomínio Belvedere Hill
 
-## Recommended IDE Setup
+## Descrição
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Sistema de reserva de quadra de tênis desenvolvido com Vue 3, TypeScript e Vite para o Condomínio Belvedere Hill.
 
-## Type Support for `.vue` Imports in TS
+## Configuração Recomendada do IDE
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (e desabilitar Vetur).
 
-## Customize configuration
+## Suporte a Tipos para Imports `.vue` em TS
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+TypeScript não consegue lidar com informações de tipo para imports `.vue` por padrão, então substituímos o CLI `tsc` por `vue-tsc` para verificação de tipos. Nos editores, precisamos do [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) para tornar o serviço de linguagem TypeScript ciente dos tipos `.vue`.
 
-## Project Setup
+## Configuração Personalizada
+
+Veja [Referência de Configuração do Vite](https://vite.dev/config/).
+
+## Configuração do Projeto
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compilar e Hot-Reload para Desenvolvimento
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Verificar Tipos, Compilar e Minificar para Produção
 
 ```sh
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### Executar Testes Unitários com [Vitest](https://vitest.dev/)
 
 ```sh
 npm run test:unit
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Lint com [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
