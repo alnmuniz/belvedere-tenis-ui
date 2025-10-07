@@ -4,7 +4,7 @@ import type { UserDTO } from '@/types/api' // Importe nosso tipo UserDTO
 
 // Cria uma instância do axios com a URL base da nossa API
 const apiClient = axios.create({
-  baseURL: 'http://localhost:8080/api',
+  baseURL: `${import.meta.env.VITE_API_BASE_URL}/api`,
 })
 
 /**
